@@ -1,1 +1,2 @@
 # OnlineCarShopHome
+This is a online auto shop where you can buy your favorate cars. There is a login page which can verify users' account num and password. It's controlled by a php file. (I only store 3 pairs of account num and password inside loginControl.php) The index.html is the homepage which is built by using HTML, CSS, JavaScript. Users can select their desired color, type and size of their car and add it into the cart by pressing 'Add' button. User can also click 'View Cart' to see what they have added to the cart and their details.
