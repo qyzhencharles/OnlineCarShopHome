@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/background2.jpg");
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+.header{
+    width: 1300px;
+    height: 40px;
+    margin: auto;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar li {
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.navbar-brand {
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+    transform: translateY(-20px);
+}
+
+.navbar-nav-left {
+    text-transform: uppercase;
+    flex: 1;
+    margin-left: 20px;
+}
+
+.navbar-nav-right li:first-child a {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav-right img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.navbar-nav-right li:nth-child(2) {
+    margin: 0 5px;
+}
+
+
+.nav-bar{
+    width: 500px;
+    height: 100px;
+    float: left;
+
+}
+.search-box{
+    margin-top: 20px;
+    float: right;
+
+}
+.ferrari{
+
+}
+.logo{
+    margin: auto;
+}
+.button1{
+    background-color: #444444;
+    color: #fff;
+    padding: 10px 15px;
+}
+.button2{
+    background-color: yellow;
+    color: black;
+    padding: 10px 15px;
+}
+.button3{
+    background-color: pink;
+    color: black;
+    padding: 10px 15px;
+}
+.vaributton{
+    width: 90px;
+    height: 100px;
+    float: right;
+
+
+}
+.fbutton{
+    width: 90px;
+    height: 100px;
+    float: right;
+
+
+}
+
+button:hover{
+    background-color: red;
+}
+button:active{
+    background-color: white;
+}
+.clearfix{
+    clear: both;
+}
+.box1{
+    height: 150px;
+    padding: 30px;
+    background-image: url("images/BMWlogo.jpg");
+    background-color: #3c2aff;
+    color: #9bddff;
+    border: 5px #43ff7f;
+    margin-top: 100px;
+    text-align: center;
+}
+.box h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container .box1 {
+
+
+}
+
+.box2{
+    border: 5px dotted #3b5dcc;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    text-indent: 2em;
+}
+.general{
+    width: fit-content;
+    border-style: solid;
+    border-color: aquamarine;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.bugatti{height: 300px;}
+.p1{
+    font-family: Helvetica;
+    font-size: larger;
+    color: darkblue;
+}
+.p2{
+    font-family: Baghdad;
+    font-size: x-large;
+    color: darkslategrey;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+}
+.model{
+
+
+
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+#main-block{
+    float: left;
+    width: 70%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor:pointer;
+}
+.shopCars{
+    width:100%;
+    /* left:0;
+    top:50%;
+    transform: translateY(-50%);
+    z-index: 999; */
+    background-color: #eee;
+}
+.shopCars .close{
+    font-size: 20px;
+    position: absolute;
+    right:10px;
+    top:3px;
+    font-weight: normal;
+    color: #000;
+}
+.shopCars h3{
+    text-align: center;
+    position: relative;
+}
+.shopCars .lists{
+    display: flex;
+}
+.shopCars .list{
+    border:1px solid #d9d9d9;
+    padding:4px;
+}
+.shopCars .list .img .small-img{
+    width: 200px;
+}
+.shopCars .list .detail{
+    line-height: 26px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 25vh;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer_section {
+    width: 300px;
+    margin: 30px 30px;
+
+}
+
+
+
+
+
+.plane1 {position: absolute;
+    top: 0; left: 0; z-index: 0;}
+.plane2 {position: absolute;
+    top: 50px; left: 50px; z-index: 0;}
+.plane3 {position: absolute;
+    top: 100px; left: 100px; z-index: 0;}
+#stack {
+position: absolute;
+
+}
